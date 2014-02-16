@@ -1,0 +1,17 @@
+Blake Madden
+CS4700/5700 - Network Fundamentals
+Project 1
+
+This program is designed to follow the protocol specified in the
+project description for project 1 in Network Fundamentals. The program
+opens a connection with the host provided on the command line and sends
+a hello message to initiate communication. The server is expected to
+respond by sending simple math problems, which it expects an answer to,
+until a BYE message is sent along with a "Secret Flag". At this point,
+the client closes the connection with the host and prints out the
+secret flag.
+
+This is a basic exercise in socket level programming following a
+specified protocol.
+
+TODO: Refactor doMath to be more readable and error tolerant.
