@@ -1,3 +1,6 @@
+#ifndef CLIENT_HEAD
+#define CLIENT_HEAD
+
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <netdb.h>
@@ -33,3 +36,5 @@ char *doMath(char *buf);
  * it receives the final BYE message
  */
 void makeSession(char *node, char *port, char *HELLO_MESSAGE, int str_size);
+
+#endif
